@@ -72,4 +72,16 @@ p {
     border-radius: 8px;
     padding: 8px;
     width: 30%;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: #F94F6D;
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 30%;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px;
 }
