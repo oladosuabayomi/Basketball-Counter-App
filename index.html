@@ -14,16 +14,16 @@
             <div class="home-col">
                 <h1>HOME</h1>
                 <div class="count-container">
-                    <p class="count" id="count">0</p>
+                    <p class="count" id="count-home">0</p>
                 </div>
                 <div class="increment-btn-wrapper">
-                    <div class="add-one increment" id="addOne">
+                    <div onclick="incrementHomeByOne()" class="add-one increment" id="addone">
                         <p>+1</p>
                     </div>
-                    <div class="add-two increment" id="addTwo">
+                    <div onclick="incrementHomeByTwo()" class="add-two increment" id="addtwo">
                         <p>+2</p>
                     </div>
-                    <div class="add-three increment" id="addThree">
+                    <div onclick="incrementHomeByThree()" class="add-three increment" id="addthree">
                         <p>+3</p>
                     </div>
                 </div>
@@ -31,20 +31,23 @@
             <div class="guest-col">
                 <h1>GUEST</h1>
                 <div class="count-container">
-                    <p class="count" id="count">0</p>
+                    <p class="count" id="count-guest">0</p>
                 </div>
                 <div class="increment-btn-wrapper">
-                    <div class="add-one increment" id="addOne">
+                    <div onclick="incrementGuestByOne()" class="add-one increment" id="addone">
                         <p>+1</p>
                     </div>
-                    <div class="add-two increment" id="addTwo">
+                    <div onclick="incrementGuestByTwo()" class="add-two increment" id="addtwo">
                         <p>+2</p>
                     </div>
-                    <div class="add-three increment" id="addThree">
+                    <div onclick="incrementGuestByThree()" class="add-three increment" id="addthree">
                         <p>+3</p>
                     </div>
                 </div>
             </div>
+        </div>
+        <div onclick="resetScore()" class="reset" id="reset">
+            <p>RESET</p>
         </div>
     </section>
 
